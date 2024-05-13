@@ -1,0 +1,126 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+/*body
+{
+    background-image:url("new1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #03020c;
+    background-image: url(signup.png);
+    background-repeat: no-repeat;
+    background-size: 103% 95%;
+    /*background-image: url("new1.png");/*background.jpg' with your image path */
+    
+}
+.box
+{
+    margin-right: 200px;
+
+    height: 400px;
+    width: 500px;
+    
+    font-size: 20px;
+    /*font-family:'Montserrat';*/
+    border-radius: 20px;
+    margin-bottom: 150px;
+    /*background-color: #fff;*/
+    margin-left:10px;
+    margin-right: 800px;
+    color: white;
+}
+label {
+    font-weight: bold;
+}
+
+.login-form {
+    /* background-color: rgba(255, 255, 255, 0.8); Adjust opacity as needed */
+    width: 300px;
+   padding: 40px;
+    border-radius: 20px;
+    padding-top: 10px;
+    
+    padding-bottom: 10px;
+    opacity:initial;
+    display: flex ;
+    flex-direction: column;
+    align-content: center;
+    
+    border: 1px solid #ccc;
+    border-color: white;
+    color: white;
+    
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex ;
+    flex-direction: column;
+    margin-right: 25px;
+    color: white;
+    
+}
+nav
+{
+    height: 83px;
+    color: #000000;
+}
+.logo{
+    height: 81px;
+    margin-top: 3px;
+}
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+button {
+    width: 45%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 12px
+}
+button[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 25%;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+a{
+    text-decoration: none;
+    display: inline;
+    color: aqua;
+}

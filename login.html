@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        body{
+            background-image: url("login.png");
+        }
+    </style>
+</head>
+<body>
+    <nav><img class = "logo" src="logo.png" ></nav>
+    <div class="container" >
+        <div class ="box">
+            <form class="login-form" action="login.php" method="post">
+                <h2>Login</h2>
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required placeholder="Enter Username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter Password">
+                </div>
+       
+                <button type="submit">Login</button>
+                <p>Not a member? <a href="signin.html">Signup</a></p>
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>

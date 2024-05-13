@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signup Page</title>
+<link rel="stylesheet" href="signin.css">
+<style>
+/* Additional inline styles can be added here if needed */
+.signup-form a {
+    display: inline; /* Make the anchor tag display inline */
+    margin-left: 5px; /* Add some margin between the "Sign Up" button and the "Login" link */
+}
+
+</style>
+</head>
+<body>
+<nav><img class = "logo" src="logo.png" ></nav>
+<div class="container">
+    
+    <div class="signup-box">
+        <form class="signup-form" action="signin.php" method="post">
+            <h2>Sign Up</h2><br>
+            <div class="form-group">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required placeholder="Enter Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required placeholder="Enter Email">
+            </div>
+            <div class="form-group">
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username" required placeholder="Enter Username">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required placeholder="Enter Password">
+            </div>
+            <button type="submit">Sign Up</button><br>
+            <p class = "already">Already a member?</span><a href="login.html">&nbsp;Login</a></p> 
+        </form>
+    </div>
+</div>
+</body>
+</html>

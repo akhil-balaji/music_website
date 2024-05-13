@@ -1,0 +1,104 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply styles to the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #03020c;
+    background-image: url(signup.png);
+    background-repeat: no-repeat;
+    background-size: 103% 95%;
+}
+
+/* Apply styles to the signup box */
+.signup-box {
+    width: 400px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    /*background-color: #fff;*/
+    margin-left:10px;
+    margin-right: 800px;
+    color: white;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+a{
+    color: aqua;
+}
+
+/* Apply styles to the signup form */
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Apply styles to form groups (labels and inputs) */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Apply styles to labels */
+label {
+    font-weight: bold;
+}
+nav {
+    height: 83px; /* Adjust height as needed */
+    background-color: #000000;
+   padding: 4px;
+    display: flex;
+    
+    /* Adjust padding as needed */
+}
+
+.logo {
+    height: 81px; /* Adjust logo height as needed */
+}
+/* Apply styles to inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+/* Apply styles to the submit button */
+button[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 25%;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Apply styles to the submit button on hover */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+a{
+    text-decoration: none;
+    display: inline;
+}
+
+.already
+{
+    display: inline-block;
+}
